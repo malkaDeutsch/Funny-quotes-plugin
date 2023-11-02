@@ -1,0 +1,17 @@
+
+  {
+    "manifest_version": 2,
+    "name": "Quote Extension",
+    "version": "1.0",
+    "author":"Malka Deutsch",
+    "description": "Start the day with an inspirational quote",
+    "icons": {
+      "16": "icon16.png",
+      "48": "icon48.png",
+      "128": "icon128.png"
+    },
+    "browser_action": {
+      "default_popup": "popup.html"
+    },
+    "permissions": ["activeTab","https://api.api-ninjas.com/*","https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"]
+  }  
